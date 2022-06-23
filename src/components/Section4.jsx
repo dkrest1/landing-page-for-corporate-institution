@@ -1,3 +1,7 @@
+import Moment1 from "../assets/moment-1.png";
+import Moment2 from "../assets/moment-2.png";
+import Moment3 from "../assets/moment-3.png";
+import Moment4 from "../assets/moment-4.png";
 const Section4 = () => {
   return (
     <div className="section4">
@@ -7,7 +11,7 @@ const Section4 = () => {
       <div className="section4-row2">
         <div className="section4-row2-col1">
           <div className="section4-row2-col1-row1">
-            <img src="" alt="" />
+            <img src={Moment1} alt="icon 1" />
             <p>Our ceo having a friendly chat with google’s ceo</p>
           </div>
           <p>
@@ -18,7 +22,7 @@ const Section4 = () => {
         </div>
         <div className="section4-row2-col1">
           <div className="section4-row2-col1-row1">
-            <img src="" alt="" />
+            <img src={Moment2} alt="icon 2" />
             <p>Our ceo having a friendly chat with google’s ceo</p>
           </div>
           <p>
@@ -29,7 +33,7 @@ const Section4 = () => {
         </div>
         <div className="section4-row2-col1">
           <div className="section4-row2-col1-row1">
-            <img src="" alt="" />
+            <img src={Moment3} alt=" icon 3" />
             <p>Our ceo having a friendly chat with google’s ceo</p>
           </div>
           <p>
@@ -40,7 +44,7 @@ const Section4 = () => {
         </div>
         <div className="section4-row2-col1">
           <div className="section4-row2-col1-row1">
-            <img src="" alt="" />
+            <img src={Moment4} alt="icon 4" />
             <p>Our ceo having a friendly chat with google’s ceo</p>
           </div>
           <p>

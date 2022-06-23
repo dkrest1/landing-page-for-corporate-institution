@@ -1,3 +1,6 @@
+import client1 from "../assets/client-1.jpg";
+import client2 from "../assets/client-2.jpg";
+import client3 from "../assets/client-3.jpg";
 const Section5 = () => {
   return (
     <div className="section5">
@@ -7,7 +10,7 @@ const Section5 = () => {
       </div>
       <div className="section5-row2">
         <div className="section5-row2 card">
-          <img src="" alt="" />
+          <img src={client1} alt="client 1" />
           <h3>Ajiteru Dolapo</h3>
           <p>Ceo easyretail</p>
           <p>
@@ -17,7 +20,7 @@ const Section5 = () => {
           </p>
         </div>
         <div className="section5-row2 card">
-          <img src="" alt="" />
+          <img src={client2} alt="client 2" />
           <h3>Ajiteru Dolapo</h3>
           <p>Ceo easyretail</p>
           <p>
@@ -27,7 +30,7 @@ const Section5 = () => {
           </p>
         </div>
         <div className="section5-row2 card">
-          <img src="" alt="" />
+          <img src={client3} alt="client 3" />
           <h3>Ajiteru Dolapo</h3>
           <p>Ceo easyretail</p>
           <p>

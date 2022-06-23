@@ -1,8 +1,8 @@
 const Section6 = () => {
   return (
-    <section>
+    <section className="section6">
       <div className="section6-row1">
-        <h1>Subscribe to our mailing list</h1>
+        <h2>Subscribe to our mailing list</h2>
       </div>
       <div className="section6-row2">
         <div className="section6-row2-col1">

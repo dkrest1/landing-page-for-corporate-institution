@@ -1,7 +1,7 @@
 import Vector from "../assets/Vector.png";
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footer-row1">
         <div className="footer-logo">
           <img src={Vector} alt="footer-logo" />
@@ -22,6 +22,13 @@ const Footer = () => {
           <li>Twitter</li>
           <li>Meta</li>
           <li>Instagram</li>
+        </ul>
+        <ul>
+          <li>Articles</li>
+          <li>Video</li>
+          <li>Blog</li>
+          <li>Dev corner</li>
+          <li>one speed</li>
         </ul>
       </div>
       <div className="footer-row2">
